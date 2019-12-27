@@ -95,6 +95,7 @@ img {
   vertical-align: bottom;
   max-width: 100%;
   height: auto;
+  max-height: 720px;
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
@@ -1960,7 +1961,7 @@ blockquote {
 
   }
 
-  .pt-page {
+col-sm-5  .pt-page {
     padding: 15px 20px 60px;
   }
 
