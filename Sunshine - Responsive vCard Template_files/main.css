@@ -1768,6 +1768,7 @@ ul.social-links li:last-child a {
 
 blockquote {
   margin: 20px 0;
+  align-content: center;
 }
 
 .blog-post-content .block-title {
