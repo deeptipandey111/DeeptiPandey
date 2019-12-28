@@ -95,7 +95,6 @@ img {
   vertical-align: bottom;
   max-width: 100%;
   height: auto;
-  max-height: 620px;
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
@@ -1616,6 +1615,9 @@ ul.social-links li:last-child a {
 
 .portfolio-block {
   padding-top: 30px;
+}
+.portfolio-block img{
+    max-height: 620px;;
 }
 
 .portfolio-page-content img {
