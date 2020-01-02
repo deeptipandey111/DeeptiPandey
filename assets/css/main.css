@@ -504,7 +504,7 @@ textarea.form-control, textarea.form-control:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0,0,0,0.08)
+  background-color: rgba(0,0,0,0.04)
 }
 
 .site-title-block {
@@ -1835,6 +1835,9 @@ blockquote {
   font-size: 12px;
 }
 
+.item img{
+  object-fit: contain;
+}
 
 /* ============================================================================= 
 11. Media Queries 
