@@ -415,6 +415,7 @@ textarea.form-control, textarea.form-control:focus {
   z-index: 1;
   opacity: 1;
   height: auto;
+  background-color: white;
 }
 
 .pt-page.pt-page-current .portfolio-grid,
@@ -1837,6 +1838,14 @@ blockquote {
 
 .item img{
   object-fit: contain;
+}
+
+.breadcrumb-item a {
+  font-size: 22px;
+}
+
+.breadcrumb-item.active {
+  font-size: 22px;
 }
 
 /* ============================================================================= 
