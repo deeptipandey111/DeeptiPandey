@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" class=" js no-touch cssanimations csstransforms csstransforms3d csstransitions" style="" pwa-launched="true" pwa-extension-id="npnbdojkgkbcdfdjlfdmplppdphlhhcf" pwa-extension-url-root="chrome-extension://npnbdojkgkbcdfdjlfdmplppdphlhhcf/"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
@@ -4319,12 +4320,12 @@ pwa-help-popup.hidden {
             <ul id="nav" class="site-main-menu">
               <!-- About Me Subpage link -->
               <li class="active">
-                <a href="#about_me" data-tab="about_me_tab">About me</a><!-- href value = data-id without # of .pt-page -->
+                <a href="#about_me" class="pt-trigger" data-animation="58" data-goto="1">About me</a><!-- href value = data-id without # of .pt-page -->
               </li>
               <!-- /About Me Subpage link -->
             
               <li>
-                <a href="#portfolio" data-tab="portfolio_tab" >Portfolio</a>
+                <a href="#portfolio" class="pt-trigger" data-animation="59" data-goto="2" data-tab="portfolio_tab" >Portfolio</a>
               </li>
               
               
@@ -4345,7 +4346,7 @@ pwa-help-popup.hidden {
           <!-- Subpages -->
           <div class="subpages">
             <!-- About Me Subpage -->
-            <section class="pt-page pt-page-1 pt-page-current" id="about_me_tab">
+            <section class="pt-page pt-page-1" data-id="about_me">
               <div class="section-title-block">
                 <h2 class="section-title">About Deepti</h2>
                 <h5 class="section-description"></h5>
@@ -4401,7 +4402,7 @@ pwa-help-popup.hidden {
             </section>
 
             <!-- Portfolio Subpage -->
-            <section class="pt-page pt-page-4" id="portfolio_tab">
+            <section class="pt-page pt-page-2" data-id="portfolio">
               <div class="section-title-block">
                 <h2 class="section-title">Portfolio</h2>
               </div>
@@ -4519,7 +4520,7 @@ pwa-help-popup.hidden {
   
 
   <script src="./assets/js/bootstrap.min.js"></script>
-  <!-- <script src="./assets/js/page-transition.js"></script> -->
+  <script src="./assets/js/page-transition.js"></script>
   <script src="./assets/js/imagesloaded.pkgd.min.js"></script>
   <script src="./assets/js/validator.js"></script>
   <script src="./assets/js/jquery.shuffle.min.js"></script>
