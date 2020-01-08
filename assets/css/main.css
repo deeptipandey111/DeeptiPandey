@@ -1852,6 +1852,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
+  margin-top: 50px;
 }
 
 .container {
