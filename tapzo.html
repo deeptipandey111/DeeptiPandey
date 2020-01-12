@@ -15,18 +15,30 @@
             </nav>
         </div>
 
-        <div class="row">
-            <div class="col-sm-7 col-md-7 portfolio-block">
+        <div class="row row-eq-height">
+            <div class="col-sm-12 col-md-7 portfolio-block" style="display: flex">
                 
-<!-- 
-                <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v=-xxamSFPGAA"></iframe>
 
-                </div> -->
-                
+                <div class="portfolio-page-video embed-responsive embed-responsive-16by9" style="margin: auto;">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-xxamSFPGAA?autoplay=0"></iframe>
+
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+                    }); 
+                </script>
             </div>
-
-            <div class="col-sm-5 col-md-5 portfolio-block">
+            <div class="col-sm-12 col-md-5 portfolio-block">
                 <!-- Project Description -->
                 <div class="block-title">
                     <h3>Overview</h3>
@@ -55,9 +67,125 @@
                 
             </div>
         </div>       
+        <div class="row row-eq-height">
+            <div class="col-sm-12 col-md-7 portfolio-block">
+                <img src="./assets/images/deepti-in-tapzotshirt.jpeg" alt="deepti-in-tapzotshirt" style="margin: auto; object-fit: contain;">
+
+            </div>
+            <div class="col-sm-12 col-md-5 portfolio-block" style="display: flex;">
+
+                <div class="block-title" style="margin: auto;">
+                        <h3>Background</h3>
+                        <p class="text-justify">I joined Tapzo fresh out of college in June, 2016, really excited to be a mobile app developer. On week 1, we were all assigned the task of improving the existing cab ride feature on the app. This had various features, such as improving the backend, the Android app experience, the iOS app experience or perform data analysis towards the accuracy of location points. When in college, I had worked on building web applications and some Android mobile applications, and I wanted to learn more, so I picked the task of improving on the iOS app. As I worked toward improving the cab experience on the iOS app, I started noticing the large difference that a professional app used by millions of users had as opposed to anything I had learnt from class or online tutorials. This was first real world experience into how different it was to get scores in class assignments where the minimum expectations were set, to an actual live products used by actual users where there were no minimum expectations at all! By the end of the week I did improve the accuracy of the mobile app, but was still lacking in a visual design sense and I realised that this is something that I would like to work towards. </p>
+                </div>
+            </div>
+        </div>
         
+        <!-- Screens Slide deck -->
+        <div class="row row-eq-height">
+            <div class="col-sm-12 col-md-7 portfolio-block" style="display: flex">
+                
+
+                <div class="portfolio-page-video embed-responsive embed-responsive-16by9" style="margin: auto;">
+                  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQwSH7rmZmpFfQHG6RR9cMxmAUAR8VHAtI4_BwIJxZCcupdsvh_lAxp2ZpxcOhC68O-IsgdZ_yDhAK0/embed?start=true&loop=true&delayms=2000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </div>
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+                    }); 
+                </script>
+            </div>
+            
+            <div class="col-sm-12 col-md-5 portfolio-block" style="display: flex;">
+
+                <div class="block-title" style="margin: auto;">
+                    
+                        <h3>The evolution</h3>
+                        <p class="text-justify">As months passed by, I became more adept with my coding skills and started to implement full fledged features on my own. I independently developed several features of the app including Recharge, Bill Payment, Flights, Hotels and Food Delivery. These tasks included receiving data from java based backend and often from third party API systems and then displaying the data to the end user. It was critical to observe the user behavior at the action items such as buttons, scrolls, tabs, lists etc. I was inclined towards building an app that was simple to navigate and provided immense usability. One of the features that I birthed was the option to change text size. This really simple solution enhanced the accessibility of the product.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Screens Slide deck -->
+        <!-- tools mastered -->
+        <div class="row row-eq-height">
+            <div class="col-sm-12 col-md-7 portfolio-block">
+                <img src="./assets/images/tapzo-tools.png" alt="deepti-in-tapzotshirt" style="margin: auto; object-fit: contain;">
+
+            </div>
+            <div class="col-sm-12 col-md-5 portfolio-block" style="display: flex;">
+
+                <div class="block-title" style="margin: auto;">
+                        <h3>Tools mastered</h3>
+                        <p class="text-justify">As months passed by, I became more adept with my coding skills and started to implement full fledged features on my own. I independently developed several features of the app including Recharge, Bill Payment, Flights, Hotels and Food Delivery. These tasks included receiving data from java based backend and often from third party API systems and then displaying the data to the end user. It was critical to observe the user behavior at the action items such as buttons, scrolls, tabs, lists etc. I was inclined towards building an app that was simple to navigate and provided immense usability. One of the features that I birthed was the option to change text size. This really simple solution enhanced the accessibility of the product.</p>
+                </div>
+            </div>
+        </div>
+        <!-- tools mastered -->
+
+        <!-- Responsibilites -->
+
+        <div class="row row-eq-height">
+             <div class="block-title">
+                    <br>
+                        <h3>My responsibilities</h3>
+                        <ol>
+                            <li>Developed app: Independently features such as Deals, Flights, Hotels, Food, News, Horoscope. I read the documentation of third party APIs such as ixigo, siwggy, zomato, horoscopeguru to understand their API contract and integrate them into the iOS app. Performed Unit Testing while app development.</li>
+                            <li>Maintained the app. Closely monitored the crash rate, adaptation rate, etc on Fabric Crashlytics. Integrated with third party plugins such as Firebase, FBSDK core and Segment. </li>
+                            <li>Maintained documentation on GitHub and Confluence. I made sure that the learnings from each of my releases were available for future team members to refer to and build upon. Helped onboard new team members and gave them the knowledge transfer.</li>
+                            <li>Developed the SDK  and collaborated with banking apps to securely integrate the Tapzo SDK into their apps.</li>
+                            <li>Raised and approved pull requests on GitHub when collaborating with the larger team. From learning a great deal by reviewing other contributors’ code, to having others learn from my unique problem approach, I learned that collaboration is key to improving my own work and developing professional relationships that are mutually beneficial.</li>
+                        </ol>
+                </div>
+        </div>
+        <!-- Responsibilites -->        
+        
+        <!-- Achievements -->
+
+        <div class="row row-eq-height">
+             <div class="block-title">
+                    <br>
+                        <h3>Achievements</h3>
+                        <ol>
+                            <li>Rating rose from 4.2 to 4.6 even as the user base swelled</li>
+                            <li>Brought the crash free rate from 96% to 99.9%, specially given that the userbase only exploded</li>
+                        </ol>
+                </div>
+        </div>
+        <!-- Achievements -->
+        <!-- Takeaways -->
+
+        <div class="row row-eq-height">
+             <div class="block-title">
+                    <br>
+                        <h3>Takeaway</h3>
+                        <ol>
+                            <li>Knowing when to use plugins is a skill</li>
+                            <li>Collaboration with different teams: Design, Development and Product</li>
+                            <li>Releasing to the App Store</li>
+                            <li>Closely watching the adaptation to the latest version</li>
+                            <li>Saving the day: Front End vs backend</li>
+                            <li>Quality work under tight deadlines.</li>
+                            <li>Mastery on potential features and consult on possibilities modern devices have to offer</li>
+                            <li>Life saving documentation: Maintained documentation on GitHub and Confluence: By being thrown into a large codebase written in syntax I had no experience with, I really learned how crucial it is to comment and document your code, and think about others (or your future self) when writing it.</li>
+                            <li>Quality work under tight deadlines: Working in sprints that promised a fresh release to the App Store every fortnight, I learned how to not compromise on the quality of work and anticipate the amount of energy any given task would take. This helped set expectations right within teams</li>
+                            <li>User focussed development: I made it a personal mission to be deeply involved with how the app was performing. If it was even remotely applicable, I would bring up Tapzo to learn how the product is perceived and whether there are challenges that users face while using it. This way I identified many UX related issues with the app and helped overcome <a href="https://en.wikipedia.org/wiki/Curse_of_knowledge">The Curse Of Knowledge</a> within the team. </li>
+                        </ol>
+                </div>
+        </div>
+        <!-- Takeaways -->
+
     </div>
+    
 </div>
+
 <div class="jumbotron text-center" style="margin-bottom:0">
     <p>Got questions? Feel free to reach out @ <a href="mailto:deeptip@umich.edu?Subject=Reaching out via Deepti's Portfoio" target="_top" title="Mail">deeptip@umich.edu</a></p>
     <a class="tip social-button" href="https://deeptipandey.app.link/" title="Home"><i class="fa fa-home"></i> Home </a>
