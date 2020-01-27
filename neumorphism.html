@@ -1,0 +1,187 @@
+<div id="portfolio-page" class="portfolio-page-content">
+    <div class="container">
+        <div class="portfolio-nav">
+            <div id="portfolio-close-button" class="portfolio-close-button">
+                <a href="#portfolio"><i class="fa fa-close"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-title">
+            <h1></h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#portfolio">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">My experiments with Neumorphism</li>
+              </ol>
+            </nav>
+        </div>
+
+        <div class="row row-eq-height">
+            <div class="col-sm-12 col-md-7 portfolio-block" style="display: flex">
+                
+
+                <div class="portfolio-page-video embed-responsive embed-responsive-16by9" style="margin: auto;">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PXjGgGgjC6c?autoplay=1"></iframe>
+
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+                    }); 
+                </script>
+            </div>
+
+            <div class="col-sm-12 col-md-5 portfolio-block">
+                <!-- Project Description -->
+                <div class="block-title">
+                    <h3>Overview</h3>
+                </div>
+                <ul class="project-general-info">
+                    <li><p><i class="fa fa-user"></i> UI Trend exploration</p></li>
+                </ul>
+
+                <p class="text-justify"> What makes a good UI? I like to explore the edges of how User Interface can work change experiences and while I like to explore out of the world 3D experiences created with Virtual Reality, I also like to find elegance in retro designs. So I wanted to create a design that resonates with retro + textureless 3d feel. As opposed to modern UI elements floating on top of our perceived background, neumorphic components pretend to extrude from the background. </p>
+                <!-- /Project Description -->
+
+                <!-- Technology -->
+                <div class="tags-block">
+                    <div class="block-title">
+                        <h3>Skills honed</h3>
+                    </div>
+                    <ul class="tags">
+                        <li><a>UI</a></li>
+                        <li><a>Swift</a></li>
+                        <li><a>iOS App</a></li>
+                        <li><a>Figma</a></li>
+                        <li><a>Retro Style</a></li>
+                    </ul>
+                </div>
+                <!-- /Technology -->
+                
+            </div>
+        </div>       
+        <!-- neo cards -->
+        <div class="row row-eq-height">
+            <div class="col-sm-12 col-md-7 portfolio-block" style="display: flex">
+                
+
+                <div class="portfolio-page-video embed-responsive embed-responsive-16by9" style="margin: auto;">
+                    <img src="./assets/images/neo-cards.png" alt="Branch Tools" style="margin: auto; object-fit: contain;">
+                </div>
+
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+                    }); 
+                </script>
+            </div>
+            <div class="col-sm-12 col-md-5 portfolio-block" style="display: flex;">
+
+                <div class="block-title" style="margin: auto;">
+                    
+                        <h3>The beauty of neumorphic surfaces in cards</h3>
+                        <p class="text-justify">As much fun it is to deal with the flat and minimal UI design patterns, there is an attraction in curved surfaces like imperfect paper. When put in a Swift UIView, and given positive and negative shawows with a slight contrast, there is a fresh feel to the whole experience. These cards do not flow like the modern cards, and instead feel like most of the card's back lies falt on surface with only slightly curved edges.</p>
+                </div>
+            </div>
+        </div>
+        <!-- neo cards -->
+
+        <!-- neo circular buttons -->
+        <div class="row row-eq-height">
+            <div class="col-sm-12 col-md-7 portfolio-block" style="display: flex">
+                
+
+                <div class="portfolio-page-video embed-responsive embed-responsive-16by9" style="margin: auto;">
+                    <img src="./assets/images/neo-circles.png" alt="Branch Tools" style="margin: auto; object-fit: contain;">
+                </div>
+
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+                    }); 
+                </script>
+            </div>
+            <div class="col-sm-12 col-md-5 portfolio-block" style="display: flex;">
+
+                <div class="block-title" style="margin: auto;">
+                    
+                        <h3>Neumorphic circular buttons </h3>
+                        <p class="text-justify">Concave and convex surfaces become more pronounced as the radius of the views changes. While rectangles with curved cirfaces look great as cards, circular surfaces serve as great buttons. With the appropriate images placed in the center of the buttons, the user experience can be greatly enhanced. One learning that I got from building the Favorite button was that it was paramount for such a to button have stark differences in images based on the states, otherwise it might be difficult to identify a state change and the current state of the button. </p>
+                </div>
+            </div>
+        </div>
+        <!-- neo circular buttons -->
+
+
+        <!-- Responsibilites -->
+        <div class="row row-eq-height">
+             <div class="block-title">
+                    <br>
+                        <h3>Challenges faced in user testing</h3>
+                        <ol>
+                            <li>The adaptability of this trend is yet to be tested extensively. Feedback from my users so far has informned me of mixed reviews: with some users being really excited about this new UI, while others could not care less.</li>
+                            <li>The design seems technically feasible in web and iOS platforms, but I have to yet test it on Android and non-native plaforms./li>
+                            <li>The lack of contrast flat out annoyed some of my users and this leads me to think that this might not be an accessible design. When doing accessibility test, this current design flat out failed and has to be changed drastically in order to be usable.</li>
+                        </ol>
+                </div>
+        </div>
+        <!-- Responsibilites --> 
+
+         
+
+        <!-- Takeaway -->
+        <div class="row row-eq-height">
+             <div class="block-title">
+                    <br>
+                        <h3>Takeaway</h3>
+                        <p>
+                             Neumorphism could be the future of UI design. Identifying up and coming patterns and the idea of working on something new brings me immense joy. As of January 2020, it seems fresh and new, it does come with potential caveats and has to be dealt with caution. Going forward, I would love to explore this pattern more by performing usability testing and user feedback. I would like to explore how the accessibility can be improved using different color and shading patterns and how I can improve the touch and feel of these componenets with the use of rich touches. 
+                        </p>
+                </div>
+        </div>
+        <!-- Takeaway --> 
+
+    </div>   
+    
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <p>Got questions? Feel free to reach out @ <a href="mailto:deeptip@umich.edu?Subject=Reaching out via Deepti's Portfoio" target="_top" title="Mail">deeptip@umich.edu</a></p>
+    <a class="tip social-button" href="https://deeptipandey.app.link/" title="Home"><i class="fa fa-home"></i> Home </a>
+    <ul class="social-links text-center">
+        <li><a class="tip social-button" href="https://deeptipandey.app.link/" title="Back to Home"><i class="fa fa-home"></i></a></li>
+
+          <li><a class="tip social-button" href="https://www.linkedin.com/in/deeptipandey/" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li> <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+          <li><a class="tip social-button" href="mailto:deeptip@umich.edu?Subject=Reaching out via Deepti's Portfoio" target="_top" title="Mail"><i class="fa fa-envelope"></i></a></li>
+          <li><a class="tip social-button" href="https://github.com/deeptipandey111/DeeptiPandey/raw/master/Files/DeeptiPandeyResume.pdf" title="Download Resume"><i class="fa fa-download"></i></i></a></li>
+    </ul>
+</div>
+
+
